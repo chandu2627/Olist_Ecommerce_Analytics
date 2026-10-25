@@ -105,9 +105,11 @@ DIVIDE(
 ### 6. Delivery Performance
 ![Delivery Performance](screenshots/07_report_delivery_performance.png)
 
-## 📄 Dashboard PDF
+## 📄 Dashboard Report
 
-[View or download the dashboard report](rpt_olist_sales.pdf)
+View the exported Power BI report containing the Sales Overview and Delivery Performance dashboards.
+
+[**View Dashboard PDF**](https://github.com/chandu2627/Olist_Ecommerce_Analytics/blob/main/rpt_olist_sales.pdf)
 
 ## 🚀 How to Reproduce
 
