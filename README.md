@@ -23,11 +23,13 @@ E-commerce businesses need to understand what drives revenue and where delivery 
 | Lowest late-delivery rate among qualifying states | Paraná (PR) — 4.8% |
 
 ### Sales Insights
+
 - Monthly revenue peaked at approximately R$1.0M in November 2017.
 - health_beauty was the leading category by revenue.
 - São Paulo (SP) generated the most revenue.
 
 ### Delivery Insights
+
 - About 7.9% of delivered order items arrived late.
 - Late-delivery rates ranged from 4.8% in Paraná to 15.3% in Ceará among states with at least 1,000 orders.
 - office_furniture had an average delivery time of approximately 20 days.
@@ -61,7 +63,7 @@ The model uses dimension-to-fact relationships with single-direction filtering.
 
 ## ⚙️ Key DAX Measures
 
-```DAX
+```dax
 Total Revenue = SUM(fact_sales[price])
 
 Total Orders = DISTINCTCOUNT(fact_sales[order_id])
@@ -88,28 +90,34 @@ DIVIDE(
 ## 📊 Dashboard Screenshots
 
 ### 1. Microsoft Fabric Workspace
+
 ![Fabric Workspace](screenshots/01_workspace.png)
 
 ### 2. Lakehouse Tables
+
 ![Lakehouse Tables](screenshots/02_lakehouse_tables.png)
 
 ### 3. Dataflow Gen2
+
 ![Dataflow Gen2](screenshots/03_dataflow_steps.png)
 
 ### 4. Semantic Model
+
 ![Semantic Model](screenshots/05_model_view.png)
 
 ### 5. Sales Overview
+
 ![Sales Overview](screenshots/06_report_sales_overview.png)
 
 ### 6. Delivery Performance
+
 ![Delivery Performance](screenshots/07_report_delivery_performance.png)
 
 ## 📄 Dashboard Report
 
 View the exported Power BI report containing the Sales Overview and Delivery Performance dashboards.
 
-[**View Dashboard PDF**](https://github.com/chandu2627/Olist_Ecommerce_Analytics/blob/main/rpt_olist_sales.pdf)
+[**View Dashboard PDF**](https://github.com/chandu2627/Olist-Ecommerce-Analytics-on-Microsoft-Fabric/blob/main/rpt_olist_sales.pdf)
 
 ## 🚀 How to Reproduce
 
@@ -137,11 +145,12 @@ View the exported Power BI report containing the Sales Overview and Delivery Per
 
 ## 📚 Dataset
 
-[ Brazilian E-Commerce Public Dataset by Olist — Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+[Brazilian E-Commerce Public Dataset by Olist — Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 ---
 
-**Project:** Olist E-commerce Analytics on Microsoft Fabric  
-**Focus:** E-commerce Analytics | Data Engineering | Business Intelligence  
-**Tools:** Microsoft Fabric | PySpark | Power BI | DAX | SQL
+**Project:** Olist E-commerce Analytics on Microsoft Fabric
 
+**Focus:** E-commerce Analytics | Data Engineering | Business Intelligence
+
+**Tools:** Microsoft Fabric | PySpark | Power BI | DAX | SQL
