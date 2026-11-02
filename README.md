@@ -117,7 +117,7 @@ DIVIDE(
 
 View the exported Power BI report containing the Sales Overview and Delivery Performance dashboards.
 
-[**View Dashboard PDF**](https://github.com/chandu2627/Olist-Ecommerce-Analytics-on-Microsoft-Fabric/blob/main/rpt_olist_sales.pdf)
+[**View Dashboard PDF**](./rpt_olist_sales.pdf)
 
 ## 🚀 How to Reproduce
 
